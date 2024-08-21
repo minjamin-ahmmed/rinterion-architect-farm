@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinterio</title>
+
+    <!-- Font Awesome CDN-->
+    <script src="https://kit.fontawesome.com/b699328ae1.js" crossorigin="anonymous"></script>
+
+    <!-- DaisyUi and Tailwind CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind Customization -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom CSS -->
+    <style>
+        .manrope {
+            font-family: "Manrope", sans-serif;
+
+        }
+    </style>
+
+</head>
+
+
+<body class="manrope ">
+
+    <!-- Header -->
+    <header class="container mx-auto px-5 py-8 md:px-8 md:py-10 lg:px-32 lg:py-12">
+        <!-- Navigation Bar -->
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+
+                    <!-- Brand Name -->
+                    <a class="">
+                        <div class="flex items-center gap-2">
+                            <div class="bg-[#ABEF5F] px-3 py-2 rounded-[60%]">
+                                <i class="fa-solid fa-arrow-right -rotate-45 inline-block"></i>
+                            </div>
+                            <span class="text-3xl font-extrabold text-[#212121]">Rinterio</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-l font-normal text-[#737373]">
+                        <li><a
+                                class="hover:text-[#494949] hover:font-bold transition-colors duration-300 ease-in-out">Home</a>
+                        </li>
+                        <li><a
+                                class="hover:text-[#494949] hover:font-bold transition-colors duration-300 ease-in-out">Services</a>
+                        </li>
+                        <li><a
+                                class="hover:text-[#494949] hover:font-bold transition-colors duration-300 ease-in-out">Portfolio</a>
+                        </li>
+                        <li><a
+                                class="hover:text-[#494949] hover:font-bold transition-colors duration-300 ease-in-out">Blogs</a>
+                        </li>
+                        <li><a class="hover:text-[#494949] hover:font-bold transition-colors duration-300 ease-in-out">Contact
+                                Us</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="navbar-end">
+                    <!-- Search and Cart Icon -->
+                    <div class="flex items-center gap-4 ">
+                        <div class="bg-[#E9E9E9] px-3 py-2 rounded-[60%] hidden lg:block md:block">
+                            <button><i class="fa-solid fa-magnifying-glass text-[#737373]"></i></button>
+                        </div>
+
+                        <div class="bg-[#E9E9E9] px-3 py-2 rounded-[60%] hidden lg:block md:block">
+                            <button><i class="fa-solid fa-cart-shopping text-[#737373]"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Button -->
+                    <a class="btn bg-[#ABEF5F] rounded-[32px] px ml-4 hidden md:block lg:block">
+
+                        <div class="flex justify-center items-center gap-2 mt-2">
+                            <span class="text-xl font-extrabold text-[#1C1C1C]">
+
+                                Book
+                                Consult</span>
+
+                            <div class="bg-[#1C1C1C] px-3 py-2 rounded-[60%] hidden lg:block md:block">
+                                <i class="fa-solid fa-arrow-right -rotate-45 inline-block text-white"></i>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+
+                            <div class="bg-[#E9E9E9] px-3 py-2 rounded-[60%] block lg:hidden">
+                                <i class="fa-solid fa-bars text-xl"></i>
+                            </div>
+                        </div>
+
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 text-l font-normal text-[#737373] right-0 shadow">
+                            <li><a
+                                    class="hover:text-[#494949] hover:font-bold transition-colors duration-300 ease-in-out">Home</a>
+                            </li>
+                            <li><a
+                                    class="hover:text-[#494949] hover:font-bold transition-colors duration-300 ease-in-out">Services</a>
+                            </li>
+                            <li><a
+                                    class="hover:text-[#494949] hover:font-bold transition-colors duration-300 ease-in-out">Portfolio</a>
+                            </li>
+                            <li><a
+                                    class="hover:text-[#494949] hover:font-bold transition-colors duration-300 ease-in-out">Blogs</a>
+                            </li>
+                            <li><a
+                                    class="hover:text-[#494949] hover:font-bold transition-colors duration-300 ease-in-out">Contact
+                                    Us</a></li>
+                        </ul>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
