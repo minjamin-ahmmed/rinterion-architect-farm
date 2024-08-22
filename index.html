@@ -85,11 +85,11 @@
                 <div class="navbar-end">
                     <!-- Search and Cart Icon -->
                     <div class="flex items-center gap-4 ">
-                        <div class="bg-[#E9E9E9] px-3 py-2 rounded-[60%] hidden lg:block md:block">
+                        <div class="bg-[#E9E9E9] px-3 py-2 rounded-full hidden lg:block md:block">
                             <button><i class="fa-solid fa-magnifying-glass text-[#737373]"></i></button>
                         </div>
 
-                        <div class="bg-[#E9E9E9] px-3 py-2 rounded-[60%] hidden lg:block md:block">
+                        <div class="bg-[#E9E9E9] px-3 py-2 rounded-full border-none hidden lg:block md:block">
                             <button><i class="fa-solid fa-cart-shopping text-[#737373]"></i></button>
                         </div>
                     </div>
@@ -113,7 +113,7 @@
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
 
-                            <div class="bg-[#E9E9E9] px-3 py-2 rounded-[60%] block lg:hidden">
+                            <div class="bg-[#E9E9E9] px-3 py-2 rounded-full block lg:hidden">
                                 <i class="fa-solid fa-bars text-xl"></i>
                             </div>
                         </div>
@@ -379,9 +379,9 @@
             <!-- Grid Container -->
 
             <!-- row1 Container -->
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
+            <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-6 mb-6">
                 <!-- Card 1 -->
-                <div class="col-span-2 p-6 rounded-2xl border border-[#E9E9E9] bg-white">
+                <div class="col-span-2 p-6 rounded-2xl border border-[#E9E9E9] bg-white mb-6 lg:mb-0">
                     <div class="flex flex-col lg:flex-row gap-10">
                         <div>
                             <img class="w-[600px] h-auto" src="assets/img1.png" alt="">
@@ -494,7 +494,7 @@
 
 
         <!-- Articles Container -->
-        <section class="container mx-auto px-5 py-8 md:px-8 md:py-10 lg:px-32 lg:py-12">
+        <section class="container mx-auto px-5 py-8 md:px-8 md:py-10 lg:px-32 lg:py-12 bg-[#F4F4F4]">
             <div class="mb-12">
                 <div class=" text-center ">
                     <button class="btn rounded-[24px] bg-[#D4F6AE] text-lg font-semibold mb-4"><i
@@ -513,7 +513,7 @@
             </div>
 
             <!-- Article Card Container -->
-            <div class="grid grid-cols-1 gap-6 lg:grid-cols-3">
+            <div class="grid grid-cols-1 gap-6 lg:grid-cols-3 mb-10">
                 <!-- Card 1 -->
                 <div class="rounded-2xl p-6 shadow-2xl bg-white">
                     <div class="mb-4">
@@ -638,26 +638,141 @@
 
                 </div>
 
+            </div>
 
+        </section>
+
+        <!-- Next Project Container -->
+        <section class="container mx-auto">
+
+            <div class="bg-no-repeat bg-cover bg-center py-24" style="background-image: url(./assets/bg.jpg)">
+
+                <div class="mb-12">
+                    <div class=" text-center ">
+                        <button class="btn rounded-[24px] bg-[#D4F6AE] text-lg font-semibold mb-4"><i
+                                class="fa-solid fa-arrow-right"></i>
+                            Lets Connect
+                        </button>
+                    </div>
+
+                    <h2 class="text-[#1C1C1C] text-2xl lg:text-4xl font-extrabold text-center mb-6">Lets Discuss Next
+                        Project
+                    </h2>
+                    <p class="text-[#494949] text-sm lg:text-lg font-medium text-center mb-14">The barn house captivates
+                        with its
+                        blend of
+                        rustic charm and modern sophistication, featuring
+                        weathered wood, sleek metal accents. </p>
+                </div>
+
+
+                <div class="w-[90%] lg:w-[70%] mx-auto mb-6">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                        <input type="text" placeholder="First Name*"
+                            class="input input-bordered w-full p-5 border border-[#E9E9E9] rounded-[64px] text-[#A0A0A0]" />
+
+                        <input type="text" placeholder="Last Name*"
+                            class="input input-bordered w-full p-5 border border-[#E9E9E9] rounded-[64px] text-[#A0A0A0]" />
+
+                        <input type="text" placeholder="Phone Number*"
+                            class="input input-bordered w-full p-5 border border-[#E9E9E9] rounded-[64px] text-[#A0A0A0]" />
+
+                        <input type="text" placeholder="Email Number*"
+                            class="input input-bordered w-full p-5 border border-[#E9E9E9] rounded-[64px] text-[#A0A0A0]" />
+                    </div>
+
+                </div>
+
+                <div class="w-[90%] lg:w-[70%] mx-auto mb-6">
+                    <textarea
+                        class="text-area text-area-lg w-full p-5 border border-[#E9E9E9] rounded-[32px] text-[#A0A0A0] h-48 mb-6"
+                        placeholder="Write Your Message Here"></textarea>
+
+
+                    <a class="btn bg-[#ABEF5F] border-none rounded-[32px] w-full">
+
+                        <div class="flex justify-center items-center gap-2">
+                            <span class="text-xl font-extrabold text-[#1C1C1C]">
+
+                                Send Mail</span>
+
+                            <div class="bg-[#1C1C1C] px-2 py-2 rounded-full">
+                                <i class="fa-solid fa-arrow-right -rotate-45 inline-block text-white"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
 
 
             </div>
 
 
-
-
-
-
-
         </section>
-
-
-
-
 
     </main>
 
-    <footer>
+    <footer class="container mx-auto py-24 bg-[#1C1C1C]">
+        <section class="w-[80%] lg:w-[70%] mx-auto">
+
+
+            <div>
+                <a class="flex justify-center mb-4">
+                    <div class="flex items-center gap-2">
+                        <div class="bg-[#ABEF5F] px-2 py-1 rounded-full">
+                            <i class="fa-solid fa-arrow-right -rotate-45 inline-block"></i>
+                        </div>
+                        <span class="text-3xl font-extrabold text-[#E9E9E9]">Rinterio</span>
+                    </div>
+                </a>
+                <p class="text-[#494949] text-sm lg:text-lg font-medium text-center mb-14">The barn house captivates
+                    with its
+                    blend of
+                    rustic charm and modern sophistication, featuring
+                    weathered wood, sleek metal accents. </p>
+
+                <div class="flex justify-center text-center mb-10">
+                    <ul class="space-y-4 lg:flex lg:items-center lg:gap-48 text-l font-normal text-[#E1E1E1]">
+                        <li><a
+                                class="hover:text-[#E9E9E9] hover:font-bold transition-colors duration-300 ease-in-out">Home</a>
+                        </li>
+                        <li><a
+                                class="hover:text-[#E9E9E9] hover:font-bold transition-colors duration-300 ease-in-out">Services</a>
+                        </li>
+                        <li><a
+                                class="hover:text-[#E9E9E9] hover:font-bold transition-colors duration-300 ease-in-out">Portfolio</a>
+                        </li>
+                        <li><a
+                                class="hover:text-[#E9E9E9] hover:font-bold transition-colors duration-300 ease-in-out">Blogs</a>
+                        </li>
+                        <li><a class="hover:text-[#E9E9E9] hover:font-bold transition-colors duration-300 ease-in-out">Contact
+                                Us</a></li>
+                    </ul>
+
+
+                </div>
+
+
+                <div class="flex justify-center">
+                    <a class="btn w-full lg:w-auto bg-[#ABEF5F] rounded-[32px] border-none">
+
+                        <div class="flex justify-center items-center gap-2">
+                            <span class="text-xl font-extrabold text-[#1C1C1C]">
+
+                                Book
+                                Consult</span>
+
+                            <div class="bg-[#1C1C1C] px-2 py-2 rounded-full">
+                                <i class="fa-solid fa-arrow-right -rotate-45 inline-block text-white"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+            </div>
+
+        </section>
 
     </footer>
 
